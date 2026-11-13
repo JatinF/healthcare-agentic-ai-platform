@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520">
+  <rect width="1040" height="520" fill="#f4f7fb"/>
+  <rect width="1040" height="72" fill="#101820"/>
+  <text x="32" y="44" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="22">What ran, and what did not</text>
+  <rect x="36" y="100" width="470" height="380" rx="8" fill="#d9e3ec"/>
+  <rect x="32" y="96" width="470" height="380" rx="8" fill="#ffffff" stroke="#e1e8ef"/>
+  <rect x="32" y="96" width="470" height="36" rx="8" fill="#1f7a4d"/>
+  <text x="52" y="120" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="16">Ran on this workstation</text>
+  <text x="52" y="168" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">pytest, ruff, and mypy</text>
+  <text x="52" y="200" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">SQLite journal through SQLAlchemy</text>
+  <text x="52" y="232" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">In-process run stream</text>
+  <text x="52" y="264" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">Mock model gateway and failover</text>
+  <text x="52" y="296" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">OpenTelemetry spans in memory</text>
+  <text x="52" y="328" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">MLflow on a local SQLite URI</text>
+  <text x="52" y="360" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">Prometheus text from /metrics</text>
+  <text x="52" y="420" fill="#5c6b7a" font-family="Segoe UI, sans-serif" font-size="13">Image proof waits for the GitHub Actions docker-build job.</text>
+  <rect x="534" y="100" width="470" height="380" rx="8" fill="#d9e3ec"/>
+  <rect x="530" y="96" width="470" height="380" rx="8" fill="#ffffff" stroke="#e1e8ef"/>
+  <rect x="530" y="96" width="470" height="36" rx="8" fill="#9b2c2c"/>
+  <text x="550" y="120" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="16">Not run</text>
+  <text x="550" y="168" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">Local docker build and compose up</text>
+  <text x="550" y="200" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">kubectl apply</text>
+  <text x="550" y="232" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">Grafana import</text>
+  <text x="550" y="264" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">Redis or Kafka broker</text>
+  <text x="550" y="296" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">Live OIDC issuer and live LLM judge</text>
+  <text x="550" y="328" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">EHR or hosted model call</text>
+  <text x="550" y="360" fill="#102033" font-family="Segoe UI, sans-serif" font-size="15">Temporal server</text>
+  <text x="550" y="420" fill="#5c6b7a" font-family="Segoe UI, sans-serif" font-size="13">A blocked remote URL is not dialed and is not echoed.</text>
+</svg>

@@ -1,0 +1,77 @@
+{
+  "version": "0.1.0",
+  "price": "none",
+  "hardware": {
+    "processor": "11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz",
+    "cores": 4,
+    "logical_processors": 8,
+    "free_physical_memory_kb": 9432996,
+    "total_visible_memory_kb": 32916868,
+    "python": "3.12.10",
+    "system": "Windows"
+  },
+  "repeats": 30,
+  "wall_seconds": {
+    "min": 0.006101000006310642,
+    "p50": 0.007051650005450938,
+    "max": 0.010512499997275881
+  },
+  "routing_units": {
+    "note": "Configured routing units, not measured dollars and not the wall clock.",
+    "mock-governed": {
+      "quality": 0.95,
+      "cost_units": 8,
+      "latency_units": 30
+    },
+    "mock-alternate": {
+      "quality": 0.96,
+      "cost_units": 12,
+      "latency_units": 40
+    },
+    "mock-cheap": {
+      "quality": 0.78,
+      "cost_units": 1,
+      "latency_units": 5
+    }
+  },
+  "quality_floor": 0.9,
+  "scores": {
+    "governed": {
+      "exact_matches": 180,
+      "cases": 180,
+      "exact_match": 1.0,
+      "phi_leaks": 0
+    },
+    "cheap": {
+      "exact_matches": 140,
+      "cases": 180,
+      "exact_match": 0.7777777777777778,
+      "phi_leaks": 0
+    },
+    "leaky": {
+      "exact_matches": 0,
+      "cases": 180,
+      "exact_match": 0.0,
+      "phi_leaks": 180
+    },
+    "regressed": {
+      "exact_matches": 40,
+      "cases": 180,
+      "exact_match": 0.2222222222222222,
+      "phi_leaks": 0
+    }
+  },
+  "ehr_calls": 0,
+  "adapters": {
+    "postgres": "sqlite-default",
+    "redis": "not-run",
+    "otlp": "not-run",
+    "ehr": "not-run",
+    "hosted_model": "not-run"
+  },
+  "docker": "not-run",
+  "kubectl": "not-run",
+  "grafana": "not-run",
+  "live_model": "not-run",
+  "temporal": "not-used"
+}

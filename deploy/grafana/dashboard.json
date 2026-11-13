@@ -1,0 +1,36 @@
+{
+  "title": "Healthcare agent platform",
+  "uid": "healthcare-agent-platform",
+  "schemaVersion": 39,
+  "version": 1,
+  "timezone": "browser",
+  "editable": false,
+  "tags": ["not-imported"],
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Runs",
+      "gridPos": {"h": 4, "w": 6, "x": 0, "y": 0},
+      "targets": [{"expr": "healthcare_runs_total", "refId": "A"}]
+    },
+    {
+      "type": "stat",
+      "title": "Denials",
+      "gridPos": {"h": 4, "w": 6, "x": 6, "y": 0},
+      "targets": [{"expr": "healthcare_denials_total", "refId": "A"}]
+    },
+    {
+      "type": "stat",
+      "title": "PHI blocks",
+      "gridPos": {"h": 4, "w": 6, "x": 12, "y": 0},
+      "targets": [{"expr": "healthcare_phi_blocks_total", "refId": "A"}]
+    },
+    {
+      "type": "stat",
+      "title": "Quality ratio",
+      "gridPos": {"h": 4, "w": 6, "x": 18, "y": 0},
+      "targets": [{"expr": "healthcare_quality_ratio", "refId": "A"}]
+    }
+  ],
+  "note": "This dashboard was not imported. Grafana was not run."
+}

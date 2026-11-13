@@ -1,0 +1,17 @@
+# Not started on the workstation. Docker was not used to build or run this file locally.
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+psycopg://lab:lab@postgres:5432/labdb
+      HEALTHCARE_PLATFORM_ALLOW_REMOTE: "1"
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: lab
+      POSTGRES_PASSWORD: lab
+      POSTGRES_DB: labdb
+  redis:
+    image: redis:7

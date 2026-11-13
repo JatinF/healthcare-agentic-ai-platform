@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="640" viewBox="0 0 1040 640">
+  <rect width="1040" height="640" fill="#f4f7fb"/>
+  <rect width="1040" height="72" fill="#101820"/>
+  <text x="32" y="36" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="22">Healthcare agent platform</text>
+  <text x="32" y="58" fill="#c5d0da" font-family="Segoe UI, sans-serif" font-size="13">Synthetic drafts · one runtime · no EHR</text>
+  <rect x="36" y="100" width="312" height="92" rx="8" fill="#d9e3ec"/>
+  <rect x="32" y="96" width="312" height="92" rx="8" fill="#ffffff" stroke="#e1e8ef"/>
+  <rect x="32" y="96" width="6" height="92" rx="3" fill="#0f6e6e"/>
+  <text x="52" y="132" fill="#102033" font-family="Segoe UI, sans-serif" font-size="16">Clinical document drafts</text>
+  <text x="52" y="156" fill="#5c6b7a" font-family="Segoe UI, sans-serif" font-size="13">Draft note · no record write</text>
+  <rect x="364" y="100" width="312" height="92" rx="8" fill="#d9e3ec"/>
+  <rect x="360" y="96" width="312" height="92" rx="8" fill="#ffffff" stroke="#e1e8ef"/>
+  <rect x="360" y="96" width="6" height="92" rx="3" fill="#1d4e89"/>
+  <text x="380" y="132" fill="#102033" font-family="Segoe UI, sans-serif" font-size="16">Referral triage</text>
+  <text x="380" y="156" fill="#5c6b7a" font-family="Segoe UI, sans-serif" font-size="13">Administrative flag · holds for a person</text>
+  <rect x="692" y="100" width="312" height="92" rx="8" fill="#d9e3ec"/>
+  <rect x="688" y="96" width="312" height="92" rx="8" fill="#ffffff" stroke="#e1e8ef"/>
+  <rect x="688" y="96" width="6" height="92" rx="3" fill="#0f5c6b"/>
+  <text x="708" y="132" fill="#102033" font-family="Segoe UI, sans-serif" font-size="16">Prior-auth preparation</text>
+  <text x="708" y="156" fill="#5c6b7a" font-family="Segoe UI, sans-serif" font-size="13">Packet draft · staged only after approval</text>
+  <line x1="188" y1="188" x2="188" y2="222" stroke="#8aa0b5" stroke-width="2"/>
+  <polygon points="182,222 194,222 188,232" fill="#8aa0b5"/>
+  <line x1="516" y1="188" x2="516" y2="222" stroke="#8aa0b5" stroke-width="2"/>
+  <polygon points="510,222 522,222 516,232" fill="#8aa0b5"/>
+  <line x1="844" y1="188" x2="844" y2="222" stroke="#8aa0b5" stroke-width="2"/>
+  <polygon points="838,222 850,222 844,232" fill="#8aa0b5"/>
+  <rect x="36" y="244" width="968" height="88" rx="8" fill="#d9e3ec"/>
+  <rect x="32" y="240" width="968" height="88" rx="8" fill="#ffffff" stroke="#e1e8ef"/>
+  <text x="52" y="274" fill="#1e3a5f" font-family="Segoe UI, sans-serif" font-size="18">Shared Python runtime</text>
+  <text x="52" y="300" fill="#5c6b7a" font-family="Segoe UI, sans-serif" font-size="14">Agent SDK · model gateway · LangGraph journal · policy gate · SQLite record</text>
+  <line x1="188" y1="328" x2="188" y2="360" stroke="#8aa0b5" stroke-width="2"/>
+  <polygon points="182,360 194,360 188,370" fill="#8aa0b5"/>
+  <line x1="516" y1="328" x2="516" y2="360" stroke="#8aa0b5" stroke-width="2"/>
+  <polygon points="510,360 522,360 516,370" fill="#8aa0b5"/>
+  <line x1="844" y1="328" x2="844" y2="360" stroke="#8aa0b5" stroke-width="2"/>
+  <polygon points="838,360 850,360 844,370" fill="#8aa0b5"/>
+  <rect x="36" y="382" width="312" height="120" rx="8" fill="#d9e3ec"/>
+  <rect x="32" y="378" width="312" height="120" rx="8" fill="#ffffff" stroke="#e1e8ef"/>
+  <text x="52" y="412" fill="#102033" font-family="Segoe UI, sans-serif" font-size="16">Governance</text>
+  <text x="52" y="436" fill="#5c6b7a" font-family="Segoe UI, sans-serif" font-size="13">Tenant scope · deny by default</text>
+  <text x="52" y="458" fill="#5c6b7a" font-family="Segoe UI, sans-serif" font-size="13">A different person approves</text>
+  <text x="52" y="480" fill="#9b2c2c" font-family="Segoe UI, sans-serif" font-size="13">PHI export is refused</text>
+  <rect x="364" y="382" width="312" height="120" rx="8" fill="#d9e3ec"/>
+  <rect x="360" y="378" width="312" height="120" rx="8" fill="#ffffff" stroke="#e1e8ef"/>
+  <text x="380" y="412" fill="#102033" font-family="Segoe UI, sans-serif" font-size="16">Evaluation</text>
+  <text x="380" y="436" fill="#5c6b7a" font-family="Segoe UI, sans-serif" font-size="13">180 synthetic cases</text>
+  <text x="380" y="458" fill="#5c6b7a" font-family="Segoe UI, sans-serif" font-size="13">Deterministic checks · judge labels</text>
+  <text x="380" y="480" fill="#9a6700" font-family="Segoe UI, sans-serif" font-size="13">Review disagreements before release</text>
+  <rect x="692" y="382" width="312" height="120" rx="8" fill="#d9e3ec"/>
+  <rect x="688" y="378" width="312" height="120" rx="8" fill="#ffffff" stroke="#e1e8ef"/>
+  <text x="708" y="412" fill="#102033" font-family="Segoe UI, sans-serif" font-size="16">Release</text>
+  <text x="708" y="436" fill="#5c6b7a" font-family="Segoe UI, sans-serif" font-size="13">Shadow · canary · active · rollback</text>
+  <text x="708" y="458" fill="#1f7a4d" font-family="Segoe UI, sans-serif" font-size="13">Unsafe models stay off the active stage</text>
+  <text x="708" y="480" fill="#5c6b7a" font-family="Segoe UI, sans-serif" font-size="13">Effects replay as the same packet</text>
+  <text x="32" y="548" fill="#102033" font-family="Segoe UI, sans-serif" font-size="14">Every output is marked DRAFT_NOT_A_CARE_DECISION. No workflow selects a treatment.</text>
+  <text x="32" y="576" fill="#5c6b7a" font-family="Segoe UI, sans-serif" font-size="13">Deployment decision on this workstation: NO-GO. Live EHR, hosted models, and Grafana were not run.</text>
+</svg>

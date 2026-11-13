@@ -1,0 +1,40 @@
+# applied: false
+# kubectl apply was not run. This manifest is a sketch for a later environment.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: healthcare-agentic-ai-platform
+  labels:
+    app: healthcare-agentic-ai-platform
+    applied: "false"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: healthcare-agentic-ai-platform
+  template:
+    metadata:
+      labels:
+        app: healthcare-agentic-ai-platform
+    spec:
+      containers:
+        - name: api
+          image: healthcare-agentic-ai-platform:ci
+          ports:
+            - containerPort: 8000
+          env:
+            - name: HEALTHCARE_PLATFORM_ALLOW_REMOTE
+              value: "0"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: healthcare-agentic-ai-platform
+  labels:
+    applied: "false"
+spec:
+  selector:
+    app: healthcare-agentic-ai-platform
+  ports:
+    - port: 80
+      targetPort: 8000
