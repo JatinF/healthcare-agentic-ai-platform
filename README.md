@@ -127,7 +127,9 @@ A new workflow starts from `template-echo`. Register a `Case`, then call `run`. 
 
 Deployment decision: **NO-GO**.
 
-Docker and kubectl were not used on this workstation. The image proof is the GitHub Actions `docker-build` job, which builds the image and runs `docker compose config` without starting the stack. Local compose was not started. Grafana, a Redis or Kafka broker, a live OIDC issuer, a live LLM judge, Temporal, and an EHR were not run. Postgres is used only by the Actions integration job when that job is green. Unset adapter URLs stay `not-run`. Any other host is blocked, the process does not dial, and the error text does not include the URL.
+Docker and kubectl were not used on this workstation. The image proof is the GitHub Actions `docker-build` job, which builds the image and runs `docker compose config` without starting the stack. Local compose was not started. Grafana, a Redis or Kafka broker, a live OIDC issuer, a live LLM judge, Temporal, and an EHR were not run. Postgres ran in the Actions integration job on the runner, not on this workstation. Unset adapter URLs stay `not-run`. Any other host is blocked, the process does not dial, and the error text does not include the URL.
+
+On commit `d2d9c9e`, GitHub Actions run [43381210790](https://github.com/JatinF/healthcare-agentic-ai-platform/actions/runs/43381210790) succeeded. The jobs were test (check run 131739146998), integration (check run 131739147293), and docker-build (check run 131739147373). Security run [43381210717](https://github.com/JatinF/healthcare-agentic-ai-platform/actions/runs/43381210717) succeeded. The scan job was check run 131739146523. Annotation lists for those four check runs returned `[]`.
 
 MLflow 3 file storage is in maintenance mode here. Tracking uses a SQLite URI when a caller passes one. The store is gitignored. Committed evidence is the JSON file.
 

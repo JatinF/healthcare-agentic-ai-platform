@@ -38,7 +38,7 @@ The Dockerfile uses `python:3.12-slim`, creates user id 10001, and starts `pytho
 
 `.github/workflows/security.yml` runs `scripts/reject_private_keys.py`. The private-key markers in that file are split so the scanner does not match itself.
 
-The first commit does not list Actions run ids. Those ids belong in a later commit after the jobs finish.
+On commit `d2d9c9e`, ci run [43381210790](https://github.com/JatinF/healthcare-agentic-ai-platform/actions/runs/43381210790) succeeded. Job conclusions were success for test (check run 131739146998), integration (check run 131739147293), and docker-build (check run 131739147373). Security run [43381210717](https://github.com/JatinF/healthcare-agentic-ai-platform/actions/runs/43381210717) succeeded. The scan job was check run 131739146523. Annotation lists for those four check runs returned `[]`. The integration job used Postgres 16 on the runner. This workstation did not.
 
 ## Gates
 
